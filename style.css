@@ -1,0 +1,82 @@
+body{
+    margin: auto 0;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px){
+    .main-nav{
+        font-size: 0.5em;
+        padding:0px;
+    }
+}
+
+
+.carousel{
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    width: 600px;
+    top: 0;
+
+}
+
+.push{
+    margin-left: auto ;
+}
+
+.green{
+    background: #56B870; /* Old browsers */
+    background: -moz-linear-gradient(top, #56B870 0%, #a5c956 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#56B870), color-stop(100%,#a5c956)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #56B870 0%,#a5c956 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #56B870 0%,#a5c956 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #56B870 0%,#a5c956 100%); /* IE10+ */
+    background: linear-gradient(top, #56B870 0%,#a5c956 100%); /* W3C */
+}
+
+.container {  
+    padding: 40px;  
+  background-color: lightblue;  
+}  
+  
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 10px;  
+  margin: 4px 0 15px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+input[type=text]:focus, input[type=password]:focus {  
+  background-color: white;  
+  outline: none;  
+}  
+ div {  
+         padding: 5px 0;  
+     }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+  background-color: #4CAF50;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+}  
+.registerbtn:hover {  
+  opacity: 1;  
+}  
+.text{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 5em;
+    color: orange;
+}
