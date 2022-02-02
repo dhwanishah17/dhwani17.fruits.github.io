@@ -14,13 +14,17 @@ body{
 }
 
 
-.carousel{
+/*.carousel{
     margin-left: auto;
     margin-right: auto;
     color: black;
     width: 600px;
     top: 0;
 
+}*/
+.carousel img{
+  width: 0px;
+  height: 600px;
 }
 
 .push{
